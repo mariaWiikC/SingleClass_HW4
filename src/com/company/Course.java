@@ -2,8 +2,8 @@ package com.company;
 
 public class Course
 {
-    String name, topic, nameOfTeacher;
-    int numOfParticipants;
+    private String name, topic, nameOfTeacher;
+    private int numOfParticipants;
 
     public Course(String name, String topic, String nameOfTeacher, int numOfParticipants)
     {
